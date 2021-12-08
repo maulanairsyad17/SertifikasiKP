@@ -43,12 +43,7 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Active Page</p>
-                </a>
-              </li>
+              
               <li class="nav-item">
                 <a href=" {{route('data-pegawai')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -59,10 +54,10 @@
           </li>
           <li class="nav-item">
             <a href="{{route('data-gambar')}}" class="nav-link">
-              <i class="nav-icon fas fa-th"></i>
+              <i class="far fa-circle nav-icon"></i>
               <p>
                 Data Gambar
-                <span class="right badge badge-danger">New</span>
+                
               </p>
             </a>
           </li>

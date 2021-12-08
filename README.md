@@ -64,3 +64,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Features of Simple Laravel Blog
+
+-   Post with category and comments.
+-   Simple functionality sidebar widget.
+-   Dashboard side with CRUD for pegawai and gambar.
+
+### Steps for Installation
+
+```
+git clone https://github.com/maulanairsyad17/SertifikasiKP SertifikasiKP
+cd SertifikasiKP
+
+// Then set database credentials in .env file
+
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
